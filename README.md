@@ -19,15 +19,15 @@ Approach:
 
 
 Setup and Run:
-Requrirements: Java 8 or high
-git clone repoUrl
-compile the program: javac CronParser.java
-Run: java CronParser "expression"
+1.Requrirements: Java 8 or high
+2.git clone repoUrl
+3.compile the program: javac CronParser.java
+4.Run: java CronParser "expression"
 
 
 Example Command and Output:
-After compilation: java CronParser "*/15 0 1,15 * 1-5 usr/bin/find"
-Output will be: 
+1.After compilation: java CronParser "*/15 0 1,15 * 1-5 usr/bin/find"
+2.Output will be: 
 
 minute        0 15 30 45
 hour          0
