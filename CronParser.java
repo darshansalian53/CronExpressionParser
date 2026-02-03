@@ -79,7 +79,7 @@ public class CronParser {
     
     private static String printOutput(String fieldName,List<?> values) {
         StringBuilder sb=new StringBuilder();
-        sb.append(String.format(fieldName));
+        sb.append(String.format("%-14s", fieldName));
         
         for(Object value : values) {
             sb.append(value).append(" ");
