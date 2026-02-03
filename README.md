@@ -15,7 +15,7 @@ I. Approach:
 4. Call method named fieldCheck() with parameters including fieldname along with minimum and maximum value of their field
 5. In fieldCheck() each and every field will be parsed for example if the minute field contains '*' then 0-59 every minute will be scheduled
 6. Similarly every field will be parsed in fieldChech() and it will return List of values
-7. That list of values will be sent to another method named printOutput(), where each field is printed along with field name and list of values.
+7. That list of values will be sent to another method named printOutput(), where each field is printed along with field name taking first 14 columns and list of values with space seperated.
 
 
 II. Setup and Run
