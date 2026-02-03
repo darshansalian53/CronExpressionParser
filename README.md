@@ -28,10 +28,10 @@ III. Example Command and Output
 1. After compilation: java CronParser "*/15 0 1,15 * 1-5 usr/bin/find"
 2. Output will be:
 
-   minute        0 15 30 45
-   hour          0
-   day of month  1 15
-   month         1 2 3 4 5 6 7 8 9 10 11 12
-   day of week   1 2 3 4 5
-   command       /usr/bin/find
+   1. minute        0 15 30 45
+   2. hour          0
+   3. day of month  1 15
+   4. month         1 2 3 4 5 6 7 8 9 10 11 12
+   5. day of week   1 2 3 4 5
+   6. command       /usr/bin/find
 
